@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.saarc1.bookwala">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.example.saarc1.bookwala.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.saarc1.bookwala.addbook" />
+        <activity
+            android:name="com.example.saarc1.bookwala.viewOrders"
+            android:label="@string/title_activity_view_prders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.saarc1.bookwala.bcom_selection" />
+        <activity android:name="com.example.saarc1.bookwala.addbook_sem1" />
+        <activity android:name="com.example.saarc1.bookwala.addbook_sem2" />
+        <activity android:name="com.example.saarc1.bookwala.addbook_sem3" />
+        <activity android:name="com.example.saarc1.bookwala.addbook_sem4" />
+        <activity android:name="com.example.saarc1.bookwala.addbook_sem5" />
+        <activity android:name="com.example.saarc1.bookwala.addbook_sem6" />
+        <activity android:name="com.example.saarc1.bookwala.engg_au_sem5" />
+        <activity android:name="com.example.saarc1.bookwala.engg_au_sem6" />
+        <activity android:name="com.example.saarc1.bookwala.engg_au_sem4" />
+        <activity android:name="com.example.saarc1.bookwala.engg_au_sem3" />
+        <activity android:name="com.example.saarc1.bookwala.engg_au_sem7" />
+        <activity android:name="com.example.saarc1.bookwala.engg_au_sem8" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cct_sem3" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cct_sem4" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cct_sem5" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cct_sem6" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cct_sem7" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cct_sem8" />
+        <activity android:name="com.example.saarc1.bookwala.engg_civil_sem3" />
+        <activity android:name="com.example.saarc1.bookwala.engg_civil_sem4" />
+        <activity android:name="com.example.saarc1.bookwala.engg_civil_sem5" />
+        <activity android:name="com.example.saarc1.bookwala.engg_civil_sem6" />
+        <activity android:name="com.example.saarc1.bookwala.engg_civil_sem8" />
+        <activity android:name="com.example.saarc1.bookwala.engg_civil_sem7" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cs_sem3" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cs_sem4" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cs_sem5" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cs_sem6" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cs_sem7" />
+        <activity android:name="com.example.saarc1.bookwala.engg_cs_sem8" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ec_sem3" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ec_sem4" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ec_sem5" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ec_sem6" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ec_sem7" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ec_sem8" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ee_sem3" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ee_sem4" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ee_sem5" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ee_sem6" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ee_sem7" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ee_sem8" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ei_sem3" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ei_sem4" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ei_sem5" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ei_sem6" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ei_sem7" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ei_sem8" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ip_sem3" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ip_sem4" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ip_sem5" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ip_sem6" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ip_sem7" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ip_sem8" />
+        <activity android:name="com.example.saarc1.bookwala.engg_mech_sem3" />
+        <activity android:name="com.example.saarc1.bookwala.engg_mech_sem4" />
+        <activity android:name="com.example.saarc1.bookwala.engg_mech_sem5" />
+        <activity android:name="com.example.saarc1.bookwala.engg_mech_sem6" />
+        <activity android:name="com.example.saarc1.bookwala.engg_mech_sem7" />
+        <activity android:name="com.example.saarc1.bookwala.engg_mech_sem8" />
+        <activity android:name="com.example.saarc1.bookwala.ei_selection" />
+        <activity android:name="com.example.saarc1.bookwala.ee_selection" />
+        <activity android:name="com.example.saarc1.bookwala.ec_selection" />
+        <activity android:name="com.example.saarc1.bookwala.ip_selection" />
+        <activity android:name="com.example.saarc1.bookwala.is_selection" />
+        <activity android:name="com.example.saarc1.bookwala.mech_selection" />
+        <activity android:name="com.example.saarc1.bookwala.au_selection" />
+        <activity android:name="com.example.saarc1.bookwala.cs_selection" />
+        <activity android:name="com.example.saarc1.bookwala.civl_selection" />
+        <activity android:name="com.example.saarc1.bookwala.engg_pcycle" />
+        <activity android:name="com.example.saarc1.bookwala.engg_ccycle" />
+        <activity android:name="com.example.saarc1.bookwala.engg_selection" />
+        <activity android:name="com.example.saarc1.bookwala.engg_is_sem4" />
+        <activity android:name="com.example.saarc1.bookwala.engg_is_sem5" />
+        <activity android:name="com.example.saarc1.bookwala.engg_is_sem6" />
+        <activity android:name="com.example.saarc1.bookwala.engg_is_sem7" />
+        <activity android:name="com.example.saarc1.bookwala.engg_is_sem3" />
+        <activity android:name="com.example.saarc1.bookwala.engg_is_sem8" />
+        <activity android:name="com.example.saarc1.bookwala.cct_selection" />
+        <activity android:name="com.example.saarc1.bookwala.course_selector"></activity>
+    </application>
+
+</manifest>

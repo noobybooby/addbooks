@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saarc1.bookwala.bcom_selection">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_centerHorizontal="true">
+<Button
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:text="p cycle"
+    android:id="@+id/sem_1"
+    android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="c cycle"
+        android:id="@+id/sem_2"
+        android:layout_below="@+id/sem_1"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="mechanical"
+        android:id="@+id/sem_3"
+        android:layout_below="@+id/sem_2"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="civil"
+        android:id="@+id/sem_4"
+        android:layout_below="@+id/sem_3"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="electronics"
+        android:id="@+id/sem_5"
+        android:layout_below="@+id/sem_4"
+        android:layout_centerHorizontal="true"/>
+    <Button
+            android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="computer science"
+        android:id="@+id/sem_6"
+        android:layout_below="@+id/sem_5"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Electrical"
+        android:id="@+id/sem_7"
+        android:layout_below="@+id/sem_6"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="instrumentation"
+        android:id="@+id/sem_8"
+        android:layout_below="@+id/sem_7"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="CCT"
+        android:id="@+id/sem_9"
+        android:layout_below="@+id/sem_8"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="IP"
+        android:id="@+id/sem_10"
+        android:layout_below="@+id/sem_9"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="AU"
+        android:id="@+id/sem_11"
+        android:layout_below="@+id/sem_10"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="IS"
+        android:id="@+id/sem_12"
+        android:layout_below="@+id/sem_11"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    </GridLayout>
+
+</RelativeLayout>

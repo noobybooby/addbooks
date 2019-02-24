@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saarc1.bookwala.bcom_selection">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sem1"
+    android:id="@+id/sem_1"
+    android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sem2"
+        android:id="@+id/sem_2"
+        android:layout_below="@+id/sem_1"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sem3"
+        android:id="@+id/sem_3"
+        android:layout_below="@+id/sem_2"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sem4"
+        android:id="@+id/sem_4"
+        android:layout_below="@+id/sem_3"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sem5"
+        android:id="@+id/sem_5"
+        android:layout_below="@+id/sem_4"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sem6"
+        android:id="@+id/sem_6"
+        android:layout_below="@+id/sem_5"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
